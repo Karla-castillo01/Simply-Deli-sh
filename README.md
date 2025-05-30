@@ -30,15 +30,15 @@ This project is a Java command-line application built to simulate a deli orderin
 * This screen shows the options for adding beverages and snacks to the current order.*
 
 ### Order Summary and Checkout
-! [Screenshot 2025-05-30 at 8.16.36 AM.png](../../Desktop/Screenshot%202025-05-30%20at%208.16.36%E2%80%AFAM.png)
+ [Screenshot 2025-05-30 at 8.16.36 AM.png](../../Desktop/Screenshot%202025-05-30%20at%208.16.36%E2%80%AFAM.png)
 * This screen presents a summary of all the items in the user's order, including individual prices and the total cost, before proceeding to checkout.*
 
 ### Final Receipt
-! [Screenshot 2025-05-30 at 8.18.05 AM.png](../../Desktop/Screenshot%202025-05-30%20at%208.18.05%E2%80%AFAM.png)
+ [Screenshot 2025-05-30 at 8.18.05 AM.png](../../Desktop/Screenshot%202025-05-30%20at%208.18.05%E2%80%AFAM.png)
 * This screen displays the generated receipt, which includes a detailed list of ordered items and the final amount.*
 
 ### Exit Confirmation
-! [Screenshot 2025-05-30 at 8.17.15 AM.png](../../Desktop/Screenshot%202025-05-30%20at%208.17.15%E2%80%AFAM.png)
+
 * This screen shows a prompt asking the user to confirm their action before exiting the application.*
 
 
