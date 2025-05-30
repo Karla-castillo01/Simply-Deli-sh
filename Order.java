@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
-    private List<Sandwich> sandwiches;
-    private List<Drink> drinks;
-    private List<Chip> chips;
+    private final List<Sandwich> sandwiches;
+    private final List<Drink> drinks;
+    private final List<Chip> chips;
 
     public Order() {
         this.sandwiches = new ArrayList<>();
@@ -51,7 +51,6 @@ public class Order {
     }
 
     public void generateReceipt() {
-        // Implementation for generating a receipt (e.g., printing to console, writing to file)
         System.out.println("--- Order Receipt ---");
         for (Sandwich sandwich : sandwiches) {
             System.out.println(sandwich.getSize() + " " + sandwich.getBreadType().getName() + " Sandwich: $" + String.format("%.2f", sandwich.getPrice()));

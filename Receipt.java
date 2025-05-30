@@ -1,7 +1,7 @@
 public class Receipt {
-    private Order order;
-    private double totalCost;
-    private String dateTime;
+    private final Order order;
+    private final double totalCost;
+    private final String dateTime;
 
     public Receipt(Order order, double totalCost) {
         this.order = order;

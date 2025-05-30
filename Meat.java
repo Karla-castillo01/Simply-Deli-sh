@@ -1,5 +1,5 @@
 public class Meat extends Topping {
     public Meat(String name) {
-        super(name, "Meat", 0.0);   // Meat prices are handled differently
+        super(name, "Meat", 0.0);
     }
 }

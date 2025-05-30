@@ -28,7 +28,7 @@ public class Main {
             switch (homeChoice) {
                 case 1:
                     handleOrder(scanner, menu, order, receiptSvc);
-                    order = new Order(); // New order after checkout/cancel
+                    order = new Order();
                     break;
                 case 0:
                     System.out.print("Are you sure you want to exit? (yes/no): ");
@@ -148,7 +148,7 @@ public class Main {
         System.out.println("\n--- " + category + " ---");
         boolean adding = true;
         while (adding) {
-            displayToppings(toppings, size); // Use the simpler name
+            displayToppings(toppings, size);
             System.out.print("Enter number for " + category.toLowerCase().replaceAll("[^a-zA-Z ]", "") + " (or 0 to finish): ");
             int choice = getValidChoice(scanner, 0, toppings.size());
 
@@ -384,7 +384,7 @@ public class Main {
     private static void displayToppings(List<? extends MenuItem> items, String sandwichSize) {
         for (int i = 0; i < items.size(); i++) {
             String itemName = items.get(i).getName();
-            double price = 0.00;
+            double price;
             if (items.get(i).getCategory().equalsIgnoreCase("Meat") || items.get(i).getCategory().equalsIgnoreCase("Cheese")) {
                 price = Main.getToppingPrice(itemName, sandwichSize);
             } else {
