@@ -11,11 +11,11 @@ This project is a Java command-line application built to simulate a deli orderin
 * **Command-Line Interface:** Interactive text-based experience for placing orders.
 * **Exit Confirmation:** Prompts for confirmation before closing the application.
 
-## 📸 Application Screenshots
-
 ### Brainstorming
 ![Untitled Diagram](https://github.com/user-attachments/assets/6ac98c9d-556c-424e-b7fa-5a29ff9714b1)
 * This diagram presents the Simply Deli-sh application's design. It outlines the classes , the data they store, and the actions they perform, providing a blueprint for the application.
+
+## 📸 Application Screenshots
 
 ### Main Menu
 ![Screenshot 2025-05-30 at 8 10 53 AM](https://github.com/user-attachments/assets/1a118e62-ec63-4f45-8c64-c13c20d7bbb9)
