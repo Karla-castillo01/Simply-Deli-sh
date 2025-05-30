@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sandwich {
-    private String size;
-    private Bread bread;
-    private List<Topping> toppings;
+    private final String size;
+    private final Bread bread;
+    private final List<Topping> toppings;
     private boolean toasted;
     private double basePrice;
 
