@@ -59,7 +59,7 @@ public class Sandwich {
         this.bread = bread;
         this.toppings = new ArrayList<>();
         this.toasted = false;
-        setBasePrice(); // Base price is determined internally upon creation
+        setBasePrice(); 
     }
 
     private void setBasePrice() {
