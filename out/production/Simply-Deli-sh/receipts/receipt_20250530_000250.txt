@@ -1,0 +1,18 @@
+--- Simply Deli-sh Receipt ---
+Date/Time: 2025-05-30T00:02:50.747727
+-----------------------------
+Order Details:
+- White (8") - $10.50
+  Toppings:
+    - Ham
+    - American Cheese
+    - Pickles
+    - Guacamole
+    - Mushrooms
+    - Pickles
+    - Thousand Islands
+  Toasted
+- Coke (Large): $3.00
+- Takis: $1.50
+-----------------------------
+Total: $15.00
